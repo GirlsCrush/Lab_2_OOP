@@ -5,23 +5,25 @@ using namespace std;
 
 int main()
 {
-	vector<int> a = { 1,1,0,1,1,1,1,0,1,0,0,1,0,0,0,1 };
-	vector<int> b = { 1,1,1,1,0,1,0,1,0,0,1,1,1,0,0,0,1 };
-	Long number(a);
-/*
-	ofstream f1out("2.txt");
-	for (unsigned int i = 0; i < a.size(); i++)
+	vector<int> a = { 6, 7, 1, 5, 0 };
+	vector<int> b = { 6, 8, 0, 1, 4 };
+	Long number1(a);
+	Long number2(b);
+	number1.mulKaracuba(number2);
+	/*
+	ofstream f1out("u.txt");
+	for (unsigned int i = 0; i < (number1.getNumber()).size(); i++)
 	{
-		f1out << a[i];
+		f1out << (number1.getNumber())[i];
 	}
 	f1out.close();
 
-	ofstream f2out("3.txt");
-	for (unsigned int i = 0; i < b.size(); i++)
+	ofstream f2out("v.txt");
+	for (unsigned int i = 0; i < (number2.getNumber()).size(); i++)
 	{
-		f2out << b[i];
+		f2out << (number2.getNumber())[i];
 	}
 	f2out.close();
-*/
+	*/
 	system("pause");
 }
